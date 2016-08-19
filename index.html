@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is the HTML base</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img alt="Brand" src="img/logo-option-2-150px.png"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#" id="home">Home</a></li>
+                    <li><a href="#about" class="about" target="_self">About</a></li>
+                    <li><a href="#lifestyle" class="about" target="_self">Lifestyle</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" id="sunglassesMain">Sunglasses</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#" id="shirtsMain">Shirts</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#" id="bottomsMain">Bottoms</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#" class="shopAll"><strong>Shop All Products</strong></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <content>
+<div class="mainPage">
+      <div class='container marketing'>
+
+        <div class='jumbotron'>
+              <div class='container'>
+                <h1 class='featurette-heading'>Hello, world!</h1>
+                <p>Heirloom synth aesthetic, twee ennui pork belly meggings brooklyn typewriter etsy food truck austin pug paleo affogato.</p>
+                <p><a class='btn btn-primary btn-lg shopAll' href='#' role='button'>Shop All Products &raquo;</a></p>
+              </div>
+
+          </div>
+
+      <!-- Three columns of text below header -->
+        <div class='row'>
+          <div id='sunglassesMain' class='col-lg-4'>
+            <img class='img-rounded' src="img/lifestyle/d'blanc_by_pierrot_68-DRK_2.jpg">
+            <h2>Sunnies </h2>
+            <p>Freegan meh blue bottle, man bun tote bag kale chips distillery. Chartreuse swag truffaut ethical.</p>
+            <button type='button' class='btn btn-default btn-lg' id='sunglassesMain' style='border-color: #1b79d0'>Shop Sunglasses <span class='glyphicon glyphicon-menu-down ' aria-hidden='true'></span>
+            </button>
+          </div>
+          <div id='shirtsMain' class='col-lg-4'>
+            <img class='img-rounded' src='img/lifestyle/VS_FALL_2016-BW-22.jpg'>
+            <h2>T-shirt Time </h2>
+            <p>8-bit marfa venmo scenester narwhal art party pop-up quinoa. Heirloom synth aesthetic, twee ennui pork belly.</p>
+            <button type='button' class='btn btn-default btn-lg' id='shirtsMain' style='border-color: #1b79d0'>Shop Shirts <span class='glyphicon glyphicon-menu-down' aria-hidden='true'></span>
+            </button>
+          </div>
+          <div id='bottomsMain' class='col-lg-4'>
+            <img class='img-rounded' src='img/lifestyle/VISSLA-Hawaii-3241.jpg'>
+            <h2>Down Under</h2>
+            <p>Heirloom synth aesthetic, twee ennui pork belly meggings brooklyn typewriter etsy food truck austin pug paleo affogato.</p>
+            <a id='bottomsMain'><button type='button' class='btn btn-default btn-lg' style='border-color: #1b79d0'>Shop Shorts <span class='glyphicon glyphicon-menu-down' aria-hidden='true'></span>
+            </button></a>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class='container marketing'>
+        <div class='row featurette' id='about'>
+          <div class='col-md-7'>
+                <h2 class='featurette-heading'>About Us. <span class='text-muted'>We are that awesome.</span></h2>
+                  <p class='lead'>Jean shorts cliche food truck, chia butcher sustainable disrupt migas ennui kogi pabst cardigan. Photo booth tousled vegan pinterest, banjo art party sustainable raw denim 3 wolf moon franzen DIY yuccie craft beer tilde banh mi.</p>
+              </div>
+              <div class='col-md-5'>
+                  <img class='featurette-image img-responsive center-block' src='img/logo-b-m-500px.jpg' alt='logo image'>
+              </div>
+
+            </div>
+
+        <div class='page-header' id='lifestyle'>
+              <h1>Lifestyle</h1>
+          </div>
+          <div id='carousel-example-generic' class='carousel slide' data-ride='carousel'>
+              <ol class='carousel-indicators'>
+                <li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li>
+                  <li data-target='#carousel-example-generic' data-slide-to='1'></li>
+                  <li data-target='#carousel-example-generic' data-slide-to='2'></li>
+              </ol>
+              <div class='carousel-inner' role='listbox'>
+                  <div class='item active'>
+                    <img src='img/bali-hat-and-bingtang.JPG' alt='First slide'>
+                  </div>
+                  <div class='item'>
+                    <img src='img/lifestyle/walking-shorts-carousel.jpg' alt='Second slide'>
+                  </div>
+                  <div class='item'>
+                    <img src='img/lifestyle-placeholder-slide.JPG' alt='Third slide'>
+                </div>
+              </div>
+              <a class='left carousel-control' href='#carousel-example-generic' role='button' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left' aria-hidden='true'></span>
+                  <span class='sr-only'>Previous</span>
+              </a>
+              <a class='right carousel-control' href='#carousel-example-generic' role='button' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right' aria-hidden='true'></span>
+                  <span class='sr-only'>Next</span>
+              </a>
+            </div>
+
+        <hr class='featurette-divider'>
+
+
+      </div>
+    </div>
+    </content>
+
+    <footer id="footer">
+        <p>Copyright Year</p>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <script src='products.js'></script>
+    <script src='shopAll.js'></script>
+    <script>
+
+//   $(function() {
+//     $('a[href*=#]:not([href=#])').click(function() {
+//         var target = $(this.hash);
+//         target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+//         if (target.length) {
+//             $('html,body').animate({
+//               scrollTop: target.offset().top
+//             }, 1000);
+//             return false;
+//         }
+//     });
+// });
+
+        //change copyright year in footer to current year
+        var today = new Date();
+        var year = today.getFullYear();
+        var el = document.getElementById('footer');
+        el.innerHTML = '<p>Copyright &copy;' + year + '</p>';
+    </script>
+
+</body>
+
+</html>
+
